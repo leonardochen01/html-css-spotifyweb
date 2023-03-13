@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+.debug{
+  background-color: darksalmon;
+}
+
+h4:hover, li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.relative{
+  position: relative;
+}
+
+.flex{
+  display: flex;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.tw{
+  color: white;
+}
+
+.tg{
+  color: rgb(131, 133, 138);
+  font-weight: bold;
+}
+
+/*STYLE*/
+
+/*HEADER*/
+
+#c-upgrade{
+  position: fixed;
+  width: 85%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.699);
+  margin-left: 15%;
+}
+
+#c-upgrade div{
+  height: 100px;
+  justify-content: end;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#c-upgrade h4{
+  padding: 10px 30px;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+#c-column{
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 15%;
+  height: 90vh;
+  background-color: rgb(0, 0, 0);
+}
+
+#logo{
+  width: 70%;
+  padding: 10px 20px;
+}
+
+.toolsbar ul li{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.toolsbar ul li img{
+  width: 30px;
+  vertical-align: middle;
+  
+}
+
+.c-playlist{
+  width: 100%;
+  padding-left: 20px;
+}
+
+.c-playlist h3{
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.c-playlist i{
+  filter: invert(1);
+  font-size: 3rem;
+  vertical-align: middle;
+}
+
+.c-playlist span{
+  vertical-align: middle;
+  color: rgb(131, 133, 138);
+}
+
+.c-playlist li{
+  line-height: 2;
+  color: rgb(131, 133, 138);
+}
+
+.download{
+  border-bottom: 1px solid rgb(131, 133, 138);
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-top: 85%;
+}
+
+.download img{
+  width: 20px;
+  vertical-align: middle;
+}
+
+.profile{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.profile img{
+  width: 20px;
+  background-color: rgb(131, 133, 138);
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+/*MAIN*/
+
+main{
+  background-color: rgb(20, 25, 34);
+  margin-left: 15%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  min-height: auto;
+}
+
+nav ul{
+  justify-content: center;
+  gap: 20px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.c-title{
+  padding: 40px 20px;
+}
+
+.c-album{
+  max-width: 100%;
+  min-height: 300px;
+  padding-left: 15px;
+}
+
+.album{
+  width: calc(100% / 6);
+  min-width: 250px;
+  min-height: 300px;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.album img{
+  max-height: 250px;
+}
+
+.album h3, .album p{
+  text-align: center;
+}
+
+.c-title p{
+  padding-top: 10px;
+}
+
+/*THIRD ROW*/
+
+.circle{
+  border-radius: 50%;
+}
+
+/*FOOTER*/
+
+#c-bar{
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(40, 40, 40);
+  width: 100%;
+  height: 100px;
+}
+
+.c-bar .c-img{
+
+}
